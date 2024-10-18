@@ -4,7 +4,6 @@ Miles Cutting - Assesment Task 3 - Part B - Portfolio
 
 Brainstorming:
  - RPG
- - Open World
  - Adventure Game
  - Local Multiplayer
  - Controller Support
@@ -67,3 +66,26 @@ Storage:
  - Game Files (Configurable) - Game files that are configurable such as the account settings, and account progress will be stored by default as a sperate folder within the game files, but will have to option to change the location to allow for quick and easy multi-device playing. The use of all local storage will also improve the overall cyber security of my game.
 
 ***
+
+Functional Requirements:
+
+User Interaction:
+
+Input: Keyboard Commands (W, A, S, D, Space, Arrow Keys)
+Use: Player Movement
+Output: The player moves throughout the level interacting with obstacles
+
+Input: Mouse Input (Cursor Location, Left Click, Right Click, Scroll, Middle Click)
+Use: Interaction with Menus
+Output: The player will use the mouse to interact with menus in the game such as the inventory system, pause menu, start menu, or game over screen
+
+*Other*
+
+Core Gameplay:
+
+Movement:
+Player inputs a movement Command (W, A, S, D, Space, Arrow Keys)
+V
+Game Checks for collision with the level such as a wall or obstacles
+V
+
