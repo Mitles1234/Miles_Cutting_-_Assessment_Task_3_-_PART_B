@@ -22,7 +22,7 @@ Problem Statement:
 People of all ages have room to improve their thinking, reaction times, and fine motor skills, however, most often lack the time. My focus for this game is to give people an option to relax that also develops these key skills.
 
 Skill Development:
-To create this project, I will need to develop a range of skills. To develop these skills, I can use the skills I have learnt from part A, such as how to design and add levels into unity, and I can use a range of free tutorials to learn how to add features such as an inventory system, a health system, and a ememy system.
+To create this project, I will need to develop a range of skills. To develop these skills, I can use the skills I have learnt from part A, such as how to design and add levels into unity, and I can use a range of free tutorials to learn how to add features such as an inventory system, a health system, and a ememy system. I will also need to learn more general skills to make the game such as file secutity and how to encrypt and decrypt files for storing data.
 
 ***
 
@@ -31,6 +31,7 @@ Requirements Outline:
 Inputs:
  - Keyboard Inputs - W, A, S, D, Space, Arrow Keys
  - Mouse Inputs - Clicks, Cursor Location
+ - Controller Inputs - Left Stick, Right Stick, Up, Down, Left, Right ...
 
 Example:
 The users will use a keyboard to control where the player moves throughout the levels, where and how they interact with items in the level. A mouse will be used to interact with features in the game such as with the inventory or trading menus.
@@ -76,7 +77,7 @@ Use: Player Movement
 Output: The player moves throughout the level interacting with obstacles
 
 Input: Mouse Input (Cursor Location, Left Click, Right Click, Scroll, Middle Click)
-Use: Interaction with Menus
+Use: Interaction with Mouse
 Output: The player will use the mouse to interact with menus in the game such as the inventory system, pause menu, start menu, or game over screen
 
 *Other*
@@ -88,4 +89,27 @@ Player inputs a movement Command (W, A, S, D, Space, Arrow Keys)
 V
 Game Checks for collision with the level such as a wall or obstacles
 V
+
+
+***
+
+Non-Functional Requirements:
+
+Peformace Requirements:
+For a low to mid range laptop, the game should load onto the start menu in under 20 seconds. The inputs should feel responsive with instant feedback shown in the game. The responsive movements should be maintained even during computing intensive events such as boss fights or other events with numerous calaculations.
+
+Usability Requirements:
+The UI will make sense with simple text labels such as "Start", "Options", or "Quit" on the Start menu, and text labels such as "Buy" and "Sell" in the shop menus. In the bottom left corner of the start menu, their will be a icon which will run through how to start the game, how to chose levels, how to move, and other key mechanics. After the tutorials has ran, a setting will be toggled so it doesn't show up on the main menu again unless manually changed in the settings (Which will be made clear at the end of the tutorial that this has happened) to keep the UI simple. Other indicators such as where to go will be part of the game. An example of this is a clear progression of levels for where the player has to go by having the next couple of key points always visable from where the player is at any moment.
+
+Compatability Requirements:
+My game will be built and designed around running on Windows computers, with Keyboard and Mouse as the controls. I will also design the game to work well with a controller without having any loss of difficulty or enjoyment, regardless of what control system they want to use. I've chosen to build my game around Windows rather than other platforms for a few main reasons. The first is I personally am running windows which will allow my to test and validate my game natively. The next reason is nearly all of the other major operating systems, (MacOS and Linux) support a compatability or translation layer to allow native windows applications to run on the other opperating systems. (such as WINE, Proton, or Rossetta) The final reason for focusing on Windows is that over 70% of computers world wide run windows so it will allow me to give the best experience to the most people possible. I have chosen not to focus on mobile, I don't think I would be able to effectivly make a control system for it, and still be able to deliver on my other criteria.
+
+Scalability Requirements:
+
+
+Security Requirements:
+My game is designed to run completly offine, and collect no sensative user data. Progress and settings will be stored in a encrypted file stored locally to protect user information. 
+
+Reliability and Availabilty:
+Their will be few variables that can impact the reliability and availabilty of my game because it doesn't use online access or other services. This means with effective play testing and validation of my game running on a range of systems, their will be no down time of the game for almost everyone who runs it. With these systems in place, their are still factors which will impact the reliability and availabilty of my game. Examples of these are force quits, or power loss. To prevent loss of progress for the player, I can impliment Autosave features into the game which will prevent as much data loss as possible. These will by default run every 5 minutes, but can be changed depending on how often the player wants them to run, i.e Never to every 1 minute. Their will also be a manual save feature for the players so they can save their progress without any data loss from when they close the game.
 
