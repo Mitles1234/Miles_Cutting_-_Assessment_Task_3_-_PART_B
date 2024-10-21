@@ -10,6 +10,7 @@ Brainstorming:
  - Boss Levels
  - Mini-Bosses
  - Difficulty Progression
+ - Fantasy
 
 ***
 
@@ -90,6 +91,10 @@ V
 Game Checks for collision with the level such as a wall or obstacles
 V
 
+Scoring and Feedback:
+
+Level Progression:
+In each level, the player will be trying to obtain a 
 
 ***
 
@@ -108,8 +113,29 @@ Scalability Requirements:
 
 
 Security Requirements:
-My game is designed to run completly offine, and collect no sensative user data. Progress and settings will be stored in a encrypted file stored locally to protect user information. 
+My game is designed to run completly offine, and collect no sensative user data. Progress and settings will be stored in a encrypted file stored locally to protect user information. Their will also be a simple username and password system that is encrypted in the save file to ensure that the person accessing it is someone with permission to access it.
 
 Reliability and Availabilty:
 Their will be few variables that can impact the reliability and availabilty of my game because it doesn't use online access or other services. This means with effective play testing and validation of my game running on a range of systems, their will be no down time of the game for almost everyone who runs it. With these systems in place, their are still factors which will impact the reliability and availabilty of my game. Examples of these are force quits, or power loss. To prevent loss of progress for the player, I can impliment Autosave features into the game which will prevent as much data loss as possible. These will by default run every 5 minutes, but can be changed depending on how often the player wants them to run, i.e Never to every 1 minute. Their will also be a manual save feature for the players so they can save their progress without any data loss from when they close the game.
 
+***
+
+Consideration of Social and Ethical Issues:
+
+Define the Terms:
+Equity - The quality of being fair and ensuring every participant equally. 
+Accessibility - The quality of being achieveable, reached, or obtained by anyone, regardless of limitations.
+
+Accessability:
+Their is a range of features and tools I can impliment into my game to allow it to be more accessable to a wider range of people. These tool can range from subtitles to entirely new contol methods. To ensure anyone is able to play my game regardless of physical abilities, the control system will be completelty customisable to work with any input such as controllers designed specifically for limited movement. By implimenting togglable subtitles for my game, it will allow the story of the game to be understood and enjoyed by everyone. Other adjustments will be able to be toggled on such as the colours for the game. Their will be a range of presets and options to allow the visual aesthetic and colours to be tweaked all depending on the user. These features all together will allow my game to be played and enjoyed by everyone regardless of their abilities.
+
+Privacy and Data Protection:
+My game will store data such as user settings, preferences, and level progression. To ensure this data stays safe, it will all be stored locally on the device it is installed on, and it will be encrypted and have a username and password protection. This means that even if someone gains access to the file, they will still need the login to obtain any information from it.
+
+Fairness and Representation:
+
+
+Mental and Emotional Well-Being:
+
+
+Cultural Sensitivities:
