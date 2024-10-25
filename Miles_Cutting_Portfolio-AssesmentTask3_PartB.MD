@@ -11,6 +11,10 @@ Brainstorming:
  - Mini-Bosses
  - Difficulty Progression
  - Fantasy
+ - 2.5D
+
+General Introduction/Game Idea/Story:
+*story*
 
 ***
 
@@ -20,7 +24,7 @@ Need:
 A story rich and highly interactive game that will help develop people of all ages cordination, problem solving, and cognitive thinking. 
 
 Problem Statement:
-People of all ages have room to improve their thinking, reaction times, and fine motor skills, however, most often lack the time. My focus for this game is to give people an option to relax that also develops these key skills.
+People of all ages have room to improve their thinking, reaction times, and fine motor skills, however, most often lack the time. My focus for this game is to give people an option to relax that also develops these key skills. My game is a 2.5D platformer (3D graphics locked to a 2D view such as the new mario bros or ori) where the player is trynig to obtain a fragment of a sword by beating ememies, which which will develop peoples cordination, quick thinking, and reaction times. They will have parkour to do which will develop their fine motor skills to control the character. They will also be using cognitive thinking to solve problem in the the game as a way to progress.
 
 Skill Development:
 To create this project, I will need to develop a range of skills. To develop these skills, I can use the skills I have learnt from part A, such as how to design and add levels into unity, and I can use a range of free tutorials to learn how to add features such as an inventory system, a health system, and a ememy system. I will also need to learn more general skills to make the game such as file secutity and how to encrypt and decrypt files for storing data.
@@ -91,10 +95,15 @@ V
 Game Checks for collision with the level such as a wall or obstacles
 V
 
+*Other*
+
 Scoring and Feedback:
 
 Level Progression:
-In each level, the player will be trying to obtain a 
+In each level, the player will be trying to obtain a fragment of a sword, once they obtain all of them, they will use the sword to defeat a final boss. The fragments that are easier to obtain will be the earlier levels to allow the players o understand the movement, mechanics, and feature of the game, before they start to preform harder challenges and obstacles in the later levels. Once the player has obtained one of the fragments, they will be grought back to the main screen where and animation will play making it clear to the player they have completed the level, and they can move onto the next. Players won't be able to progress to the next level until they have beaten the level prior to it. The boss level will use all of the skills the player will have developed.
+
+Saving and Loading Data:
+My game will store user data locally, with a basic level of encryption, and a user login consisting of a username and password. It will save it in a easy to access locaiton however so the player can easily put it on a USB drive for example, to maintain the same account accross a range of devices.
 
 ***
 
@@ -108,9 +117,6 @@ The UI will make sense with simple text labels such as "Start", "Options", or "Q
 
 Compatability Requirements:
 My game will be built and designed around running on Windows computers, with Keyboard and Mouse as the controls. I will also design the game to work well with a controller without having any loss of difficulty or enjoyment, regardless of what control system they want to use. I've chosen to build my game around Windows rather than other platforms for a few main reasons. The first is I personally am running windows which will allow my to test and validate my game natively. The next reason is nearly all of the other major operating systems, (MacOS and Linux) support a compatability or translation layer to allow native windows applications to run on the other opperating systems. (such as WINE, Proton, or Rossetta) The final reason for focusing on Windows is that over 70% of computers world wide run windows so it will allow me to give the best experience to the most people possible. I have chosen not to focus on mobile, I don't think I would be able to effectivly make a control system for it, and still be able to deliver on my other criteria.
-
-Scalability Requirements:
-
 
 Security Requirements:
 My game is designed to run completly offine, and collect no sensative user data. Progress and settings will be stored in a encrypted file stored locally to protect user information. Their will also be a simple username and password system that is encrypted in the save file to ensure that the person accessing it is someone with permission to access it.
